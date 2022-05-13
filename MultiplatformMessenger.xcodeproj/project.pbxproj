@@ -14,6 +14,66 @@
 		760CF8B7282E250600C60C94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8A5282E250400C60C94 /* ContentView.swift */; };
 		760CF8B8282E250600C60C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760CF8A6282E250600C60C94 /* Assets.xcassets */; };
 		760CF8B9282E250600C60C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760CF8A6282E250600C60C94 /* Assets.xcassets */; };
+		760CF8C8282E27DB00C60C94 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8C7282E27DB00C60C94 /* UserService.swift */; };
+		760CF8C9282E27DB00C60C94 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8C7282E27DB00C60C94 /* UserService.swift */; };
+		760CF8CC282E283A00C60C94 /* LoggedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8CB282E283A00C60C94 /* LoggedUser.swift */; };
+		760CF8CD282E283A00C60C94 /* LoggedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8CB282E283A00C60C94 /* LoggedUser.swift */; };
+		760CF8CF282E288700C60C94 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8CE282E288700C60C94 /* StringExtension.swift */; };
+		760CF8D0282E288700C60C94 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8CE282E288700C60C94 /* StringExtension.swift */; };
+		760CF8E6282E292500C60C94 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8E5282E292500C60C94 /* DictionaryExtension.swift */; };
+		760CF8E7282E292500C60C94 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8E5282E292500C60C94 /* DictionaryExtension.swift */; };
+		760CF8EB282E296E00C60C94 /* AuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8EA282E296E00C60C94 /* AuthUser.swift */; };
+		760CF8EC282E296E00C60C94 /* AuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8EA282E296E00C60C94 /* AuthUser.swift */; };
+		760CF8EE282E299300C60C94 /* AuthPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8ED282E299300C60C94 /* AuthPerson.swift */; };
+		760CF8EF282E299300C60C94 /* AuthPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8ED282E299300C60C94 /* AuthPerson.swift */; };
+		760CF8F0282E29A500C60C94 /* ApiObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8E9282E295B00C60C94 /* ApiObject.swift */; };
+		760CF8F1282E29A500C60C94 /* ApiObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8E9282E295B00C60C94 /* ApiObject.swift */; };
+		760CF8F2282E29A900C60C94 /* ApiCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8E8282E295B00C60C94 /* ApiCollection.swift */; };
+		760CF8F3282E29A900C60C94 /* ApiCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8E8282E295B00C60C94 /* ApiCollection.swift */; };
+		760CF8F5282E29FF00C60C94 /* AuthEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8F4282E29FF00C60C94 /* AuthEmployee.swift */; };
+		760CF8F6282E29FF00C60C94 /* AuthEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8F4282E29FF00C60C94 /* AuthEmployee.swift */; };
+		760CF8F8282E2A2C00C60C94 /* UserUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8F7282E2A2C00C60C94 /* UserUser.swift */; };
+		760CF8F9282E2A2C00C60C94 /* UserUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8F7282E2A2C00C60C94 /* UserUser.swift */; };
+		760CF8FB282E2A4D00C60C94 /* CommonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8FA282E2A4D00C60C94 /* CommonApp.swift */; };
+		760CF8FC282E2A4D00C60C94 /* CommonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8FA282E2A4D00C60C94 /* CommonApp.swift */; };
+		760CF8FE282E2A7300C60C94 /* CommonCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8FD282E2A7300C60C94 /* CommonCountry.swift */; };
+		760CF8FF282E2A7300C60C94 /* CommonCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8FD282E2A7300C60C94 /* CommonCountry.swift */; };
+		760CF901282E2AA200C60C94 /* HRMEployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF900282E2AA200C60C94 /* HRMEployee.swift */; };
+		760CF902282E2AA200C60C94 /* HRMEployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF900282E2AA200C60C94 /* HRMEployee.swift */; };
+		760CF904282E2AC200C60C94 /* HRMQualification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF903282E2AC200C60C94 /* HRMQualification.swift */; };
+		760CF905282E2AC200C60C94 /* HRMQualification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF903282E2AC200C60C94 /* HRMQualification.swift */; };
+		760CF907282E2B1D00C60C94 /* DicoMqttMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF906282E2B1D00C60C94 /* DicoMqttMessage.swift */; };
+		760CF908282E2B1D00C60C94 /* DicoMqttMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF906282E2B1D00C60C94 /* DicoMqttMessage.swift */; };
+		760CF90A282E2B4D00C60C94 /* MQTTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF909282E2B4D00C60C94 /* MQTTClient.swift */; };
+		760CF90B282E2B4D00C60C94 /* MQTTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF909282E2B4D00C60C94 /* MQTTClient.swift */; };
+		760CF90D282E2B7500C60C94 /* CoreEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF90C282E2B7500C60C94 /* CoreEntity.swift */; };
+		760CF90E282E2B7500C60C94 /* CoreEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF90C282E2B7500C60C94 /* CoreEntity.swift */; };
+		760CF910282E2B9F00C60C94 /* MessengerMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF90F282E2B9F00C60C94 /* MessengerMessage.swift */; };
+		760CF911282E2B9F00C60C94 /* MessengerMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF90F282E2B9F00C60C94 /* MessengerMessage.swift */; };
+		760CF913282E2BBD00C60C94 /* MessengerChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF912282E2BBD00C60C94 /* MessengerChatRoom.swift */; };
+		760CF914282E2BBD00C60C94 /* MessengerChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF912282E2BBD00C60C94 /* MessengerChatRoom.swift */; };
+		760CF916282E2C5300C60C94 /* OHCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF915282E2C5300C60C94 /* OHCenter.swift */; };
+		760CF917282E2C5300C60C94 /* OHCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF915282E2C5300C60C94 /* OHCenter.swift */; };
+		760CF919282E2C7600C60C94 /* FileFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF918282E2C7600C60C94 /* FileFile.swift */; };
+		760CF91A282E2C7600C60C94 /* FileFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF918282E2C7600C60C94 /* FileFile.swift */; };
+		760CF91C282E2C8600C60C94 /* CommonAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF91B282E2C8600C60C94 /* CommonAction.swift */; };
+		760CF91D282E2C8600C60C94 /* CommonAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF91B282E2C8600C60C94 /* CommonAction.swift */; };
+		760CF91F282E2C9B00C60C94 /* CommonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF91E282E2C9B00C60C94 /* CommonColor.swift */; };
+		760CF920282E2C9B00C60C94 /* CommonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF91E282E2C9B00C60C94 /* CommonColor.swift */; };
+		760CF922282E2CCF00C60C94 /* TimeZoneExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF921282E2CCF00C60C94 /* TimeZoneExtension.swift */; };
+		760CF923282E2CCF00C60C94 /* TimeZoneExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF921282E2CCF00C60C94 /* TimeZoneExtension.swift */; };
+		760CF925282E2D1900C60C94 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF924282E2D1900C60C94 /* DateExtension.swift */; };
+		760CF926282E2D1900C60C94 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF924282E2D1900C60C94 /* DateExtension.swift */; };
+		760CF928282E2D4700C60C94 /* MentionMention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF927282E2D4700C60C94 /* MentionMention.swift */; };
+		760CF929282E2D4700C60C94 /* MentionMention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF927282E2D4700C60C94 /* MentionMention.swift */; };
+		760CF92B282E2E4100C60C94 /* AnyApiObjectTransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF92A282E2E4100C60C94 /* AnyApiObjectTransformType.swift */; };
+		760CF92C282E2E4100C60C94 /* AnyApiObjectTransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF92A282E2E4100C60C94 /* AnyApiObjectTransformType.swift */; };
+		760CF92E282E2E5D00C60C94 /* ApiObjectTransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF92D282E2E5D00C60C94 /* ApiObjectTransformType.swift */; };
+		760CF92F282E2E5D00C60C94 /* ApiObjectTransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF92D282E2E5D00C60C94 /* ApiObjectTransformType.swift */; };
+		760CF931282E2E6F00C60C94 /* DateTransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF930282E2E6F00C60C94 /* DateTransformType.swift */; };
+		760CF932282E2E6F00C60C94 /* DateTransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF930282E2E6F00C60C94 /* DateTransformType.swift */; };
+		760CF934282E2E7F00C60C94 /* DoubleTransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF933282E2E7F00C60C94 /* DoubleTransformType.swift */; };
+		760CF935282E2E7F00C60C94 /* DoubleTransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF933282E2E7F00C60C94 /* DoubleTransformType.swift */; };
 		B73E62DCA9168E85A79C3D7A /* Pods_MultiplatformMessenger__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE87E98174622B1E190BB937 /* Pods_MultiplatformMessenger__macOS_.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +87,36 @@
 		760CF8AB282E250600C60C94 /* MultiplatformMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplatformMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		760CF8B1282E250600C60C94 /* MultiplatformMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplatformMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		760CF8B3282E250600C60C94 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		760CF8C7282E27DB00C60C94 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		760CF8CB282E283A00C60C94 /* LoggedUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedUser.swift; sourceTree = "<group>"; };
+		760CF8CE282E288700C60C94 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		760CF8E5282E292500C60C94 /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		760CF8E8282E295B00C60C94 /* ApiCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCollection.swift; sourceTree = "<group>"; };
+		760CF8E9282E295B00C60C94 /* ApiObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiObject.swift; sourceTree = "<group>"; };
+		760CF8EA282E296E00C60C94 /* AuthUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUser.swift; sourceTree = "<group>"; };
+		760CF8ED282E299300C60C94 /* AuthPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPerson.swift; sourceTree = "<group>"; };
+		760CF8F4282E29FF00C60C94 /* AuthEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthEmployee.swift; sourceTree = "<group>"; };
+		760CF8F7282E2A2C00C60C94 /* UserUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUser.swift; sourceTree = "<group>"; };
+		760CF8FA282E2A4D00C60C94 /* CommonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonApp.swift; sourceTree = "<group>"; };
+		760CF8FD282E2A7300C60C94 /* CommonCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCountry.swift; sourceTree = "<group>"; };
+		760CF900282E2AA200C60C94 /* HRMEployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRMEployee.swift; sourceTree = "<group>"; };
+		760CF903282E2AC200C60C94 /* HRMQualification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRMQualification.swift; sourceTree = "<group>"; };
+		760CF906282E2B1D00C60C94 /* DicoMqttMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicoMqttMessage.swift; sourceTree = "<group>"; };
+		760CF909282E2B4D00C60C94 /* MQTTClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTClient.swift; sourceTree = "<group>"; };
+		760CF90C282E2B7500C60C94 /* CoreEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreEntity.swift; sourceTree = "<group>"; };
+		760CF90F282E2B9F00C60C94 /* MessengerMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerMessage.swift; sourceTree = "<group>"; };
+		760CF912282E2BBD00C60C94 /* MessengerChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerChatRoom.swift; sourceTree = "<group>"; };
+		760CF915282E2C5300C60C94 /* OHCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OHCenter.swift; sourceTree = "<group>"; };
+		760CF918282E2C7600C60C94 /* FileFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileFile.swift; sourceTree = "<group>"; };
+		760CF91B282E2C8600C60C94 /* CommonAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonAction.swift; sourceTree = "<group>"; };
+		760CF91E282E2C9B00C60C94 /* CommonColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonColor.swift; sourceTree = "<group>"; };
+		760CF921282E2CCF00C60C94 /* TimeZoneExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneExtension.swift; sourceTree = "<group>"; };
+		760CF924282E2D1900C60C94 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		760CF927282E2D4700C60C94 /* MentionMention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionMention.swift; sourceTree = "<group>"; };
+		760CF92A282E2E4100C60C94 /* AnyApiObjectTransformType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyApiObjectTransformType.swift; sourceTree = "<group>"; };
+		760CF92D282E2E5D00C60C94 /* ApiObjectTransformType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiObjectTransformType.swift; sourceTree = "<group>"; };
+		760CF930282E2E6F00C60C94 /* DateTransformType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTransformType.swift; sourceTree = "<group>"; };
+		760CF933282E2E7F00C60C94 /* DoubleTransformType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTransformType.swift; sourceTree = "<group>"; };
 		9A8335E6CE4F6E4428649806 /* Pods_MultiplatformMessenger__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiplatformMessenger__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE87E98174622B1E190BB937 /* Pods_MultiplatformMessenger__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiplatformMessenger__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07D33D8E18C25D8CA7AFFC2 /* Pods-MultiplatformMessenger (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiplatformMessenger (iOS).debug.xcconfig"; path = "Target Support Files/Pods-MultiplatformMessenger (iOS)/Pods-MultiplatformMessenger (iOS).debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +167,9 @@
 		760CF8A3282E250400C60C94 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				760CF8CA282E282600C60C94 /* ApiObjects */,
+				760CF8C6282E27B300C60C94 /* Services */,
+				760CF8C3282E279800C60C94 /* UI */,
 				760CF8C2282E261900C60C94 /* Extensions */,
 				760CF8A4282E250400C60C94 /* MultiplatformMessengerApp.swift */,
 				760CF8A5282E250400C60C94 /* ContentView.swift */,
@@ -105,8 +198,91 @@
 		760CF8C2282E261900C60C94 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				760CF8CE282E288700C60C94 /* StringExtension.swift */,
+				760CF8E5282E292500C60C94 /* DictionaryExtension.swift */,
+				760CF921282E2CCF00C60C94 /* TimeZoneExtension.swift */,
+				760CF924282E2D1900C60C94 /* DateExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		760CF8C3282E279800C60C94 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				760CF8C5282E27A300C60C94 /* Screens */,
+				760CF8C4282E279E00C60C94 /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		760CF8C4282E279E00C60C94 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		760CF8C5282E27A300C60C94 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		760CF8C6282E27B300C60C94 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				760CF8C7282E27DB00C60C94 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		760CF8CA282E282600C60C94 /* ApiObjects */ = {
+			isa = PBXGroup;
+			children = (
+				760CF8D1282E28B300C60C94 /* Libs */,
+				760CF8CB282E283A00C60C94 /* LoggedUser.swift */,
+				760CF8EA282E296E00C60C94 /* AuthUser.swift */,
+				760CF8ED282E299300C60C94 /* AuthPerson.swift */,
+				760CF8F4282E29FF00C60C94 /* AuthEmployee.swift */,
+				760CF8F7282E2A2C00C60C94 /* UserUser.swift */,
+				760CF8FA282E2A4D00C60C94 /* CommonApp.swift */,
+				760CF8FD282E2A7300C60C94 /* CommonCountry.swift */,
+				760CF900282E2AA200C60C94 /* HRMEployee.swift */,
+				760CF903282E2AC200C60C94 /* HRMQualification.swift */,
+				760CF906282E2B1D00C60C94 /* DicoMqttMessage.swift */,
+				760CF909282E2B4D00C60C94 /* MQTTClient.swift */,
+				760CF90C282E2B7500C60C94 /* CoreEntity.swift */,
+				760CF90F282E2B9F00C60C94 /* MessengerMessage.swift */,
+				760CF912282E2BBD00C60C94 /* MessengerChatRoom.swift */,
+				760CF915282E2C5300C60C94 /* OHCenter.swift */,
+				760CF918282E2C7600C60C94 /* FileFile.swift */,
+				760CF91B282E2C8600C60C94 /* CommonAction.swift */,
+				760CF91E282E2C9B00C60C94 /* CommonColor.swift */,
+				760CF927282E2D4700C60C94 /* MentionMention.swift */,
+			);
+			path = ApiObjects;
+			sourceTree = "<group>";
+		};
+		760CF8D1282E28B300C60C94 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				760CF8E8282E295B00C60C94 /* ApiCollection.swift */,
+				760CF8E9282E295B00C60C94 /* ApiObject.swift */,
+				760CF8D2282E28D600C60C94 /* TransformType */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		760CF8D2282E28D600C60C94 /* TransformType */ = {
+			isa = PBXGroup;
+			children = (
+				760CF92A282E2E4100C60C94 /* AnyApiObjectTransformType.swift */,
+				760CF92D282E2E5D00C60C94 /* ApiObjectTransformType.swift */,
+				760CF930282E2E6F00C60C94 /* DateTransformType.swift */,
+				760CF933282E2E7F00C60C94 /* DoubleTransformType.swift */,
+			);
+			path = TransformType;
 			sourceTree = "<group>";
 		};
 		A7F1CEE13610DEDD74A6FA9D /* Frameworks */ = {
@@ -301,8 +477,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				760CF8F5282E29FF00C60C94 /* AuthEmployee.swift in Sources */,
+				760CF8CC282E283A00C60C94 /* LoggedUser.swift in Sources */,
+				760CF928282E2D4700C60C94 /* MentionMention.swift in Sources */,
+				760CF91F282E2C9B00C60C94 /* CommonColor.swift in Sources */,
+				760CF925282E2D1900C60C94 /* DateExtension.swift in Sources */,
 				760CF8B6282E250600C60C94 /* ContentView.swift in Sources */,
+				760CF8E6282E292500C60C94 /* DictionaryExtension.swift in Sources */,
+				760CF8EB282E296E00C60C94 /* AuthUser.swift in Sources */,
+				760CF8FE282E2A7300C60C94 /* CommonCountry.swift in Sources */,
+				760CF90D282E2B7500C60C94 /* CoreEntity.swift in Sources */,
+				760CF8F8282E2A2C00C60C94 /* UserUser.swift in Sources */,
+				760CF8CF282E288700C60C94 /* StringExtension.swift in Sources */,
 				760CF8B4282E250600C60C94 /* MultiplatformMessengerApp.swift in Sources */,
+				760CF8FB282E2A4D00C60C94 /* CommonApp.swift in Sources */,
+				760CF8F2282E29A900C60C94 /* ApiCollection.swift in Sources */,
+				760CF904282E2AC200C60C94 /* HRMQualification.swift in Sources */,
+				760CF907282E2B1D00C60C94 /* DicoMqttMessage.swift in Sources */,
+				760CF913282E2BBD00C60C94 /* MessengerChatRoom.swift in Sources */,
+				760CF8EE282E299300C60C94 /* AuthPerson.swift in Sources */,
+				760CF901282E2AA200C60C94 /* HRMEployee.swift in Sources */,
+				760CF922282E2CCF00C60C94 /* TimeZoneExtension.swift in Sources */,
+				760CF934282E2E7F00C60C94 /* DoubleTransformType.swift in Sources */,
+				760CF92E282E2E5D00C60C94 /* ApiObjectTransformType.swift in Sources */,
+				760CF919282E2C7600C60C94 /* FileFile.swift in Sources */,
+				760CF90A282E2B4D00C60C94 /* MQTTClient.swift in Sources */,
+				760CF8C8282E27DB00C60C94 /* UserService.swift in Sources */,
+				760CF91C282E2C8600C60C94 /* CommonAction.swift in Sources */,
+				760CF8F0282E29A500C60C94 /* ApiObject.swift in Sources */,
+				760CF910282E2B9F00C60C94 /* MessengerMessage.swift in Sources */,
+				760CF916282E2C5300C60C94 /* OHCenter.swift in Sources */,
+				760CF92B282E2E4100C60C94 /* AnyApiObjectTransformType.swift in Sources */,
+				760CF931282E2E6F00C60C94 /* DateTransformType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,8 +516,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				760CF8F6282E29FF00C60C94 /* AuthEmployee.swift in Sources */,
+				760CF8CD282E283A00C60C94 /* LoggedUser.swift in Sources */,
+				760CF929282E2D4700C60C94 /* MentionMention.swift in Sources */,
+				760CF920282E2C9B00C60C94 /* CommonColor.swift in Sources */,
+				760CF926282E2D1900C60C94 /* DateExtension.swift in Sources */,
 				760CF8B7282E250600C60C94 /* ContentView.swift in Sources */,
+				760CF8E7282E292500C60C94 /* DictionaryExtension.swift in Sources */,
+				760CF8EC282E296E00C60C94 /* AuthUser.swift in Sources */,
+				760CF8FF282E2A7300C60C94 /* CommonCountry.swift in Sources */,
+				760CF90E282E2B7500C60C94 /* CoreEntity.swift in Sources */,
+				760CF8F9282E2A2C00C60C94 /* UserUser.swift in Sources */,
+				760CF8D0282E288700C60C94 /* StringExtension.swift in Sources */,
 				760CF8B5282E250600C60C94 /* MultiplatformMessengerApp.swift in Sources */,
+				760CF8FC282E2A4D00C60C94 /* CommonApp.swift in Sources */,
+				760CF8F3282E29A900C60C94 /* ApiCollection.swift in Sources */,
+				760CF905282E2AC200C60C94 /* HRMQualification.swift in Sources */,
+				760CF908282E2B1D00C60C94 /* DicoMqttMessage.swift in Sources */,
+				760CF914282E2BBD00C60C94 /* MessengerChatRoom.swift in Sources */,
+				760CF8EF282E299300C60C94 /* AuthPerson.swift in Sources */,
+				760CF902282E2AA200C60C94 /* HRMEployee.swift in Sources */,
+				760CF923282E2CCF00C60C94 /* TimeZoneExtension.swift in Sources */,
+				760CF935282E2E7F00C60C94 /* DoubleTransformType.swift in Sources */,
+				760CF92F282E2E5D00C60C94 /* ApiObjectTransformType.swift in Sources */,
+				760CF91A282E2C7600C60C94 /* FileFile.swift in Sources */,
+				760CF90B282E2B4D00C60C94 /* MQTTClient.swift in Sources */,
+				760CF8C9282E27DB00C60C94 /* UserService.swift in Sources */,
+				760CF91D282E2C8600C60C94 /* CommonAction.swift in Sources */,
+				760CF8F1282E29A500C60C94 /* ApiObject.swift in Sources */,
+				760CF911282E2B9F00C60C94 /* MessengerMessage.swift in Sources */,
+				760CF917282E2C5300C60C94 /* OHCenter.swift in Sources */,
+				760CF92C282E2E4100C60C94 /* AnyApiObjectTransformType.swift in Sources */,
+				760CF932282E2E6F00C60C94 /* DateTransformType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
