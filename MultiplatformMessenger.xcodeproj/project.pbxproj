@@ -74,6 +74,8 @@
 		760CF932282E2E6F00C60C94 /* DateTransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF930282E2E6F00C60C94 /* DateTransformType.swift */; };
 		760CF934282E2E7F00C60C94 /* DoubleTransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF933282E2E7F00C60C94 /* DoubleTransformType.swift */; };
 		760CF935282E2E7F00C60C94 /* DoubleTransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF933282E2E7F00C60C94 /* DoubleTransformType.swift */; };
+		760CF937282E2F2D00C60C94 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF936282E2F2D00C60C94 /* AppMain.swift */; };
+		760CF938282E2F2D00C60C94 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF936282E2F2D00C60C94 /* AppMain.swift */; };
 		B73E62DCA9168E85A79C3D7A /* Pods_MultiplatformMessenger__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE87E98174622B1E190BB937 /* Pods_MultiplatformMessenger__macOS_.framework */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +119,7 @@
 		760CF92D282E2E5D00C60C94 /* ApiObjectTransformType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiObjectTransformType.swift; sourceTree = "<group>"; };
 		760CF930282E2E6F00C60C94 /* DateTransformType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTransformType.swift; sourceTree = "<group>"; };
 		760CF933282E2E7F00C60C94 /* DoubleTransformType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTransformType.swift; sourceTree = "<group>"; };
+		760CF936282E2F2D00C60C94 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		9A8335E6CE4F6E4428649806 /* Pods_MultiplatformMessenger__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiplatformMessenger__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE87E98174622B1E190BB937 /* Pods_MultiplatformMessenger__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiplatformMessenger__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07D33D8E18C25D8CA7AFFC2 /* Pods-MultiplatformMessenger (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiplatformMessenger (iOS).debug.xcconfig"; path = "Target Support Files/Pods-MultiplatformMessenger (iOS)/Pods-MultiplatformMessenger (iOS).debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +177,7 @@
 				760CF8A4282E250400C60C94 /* MultiplatformMessengerApp.swift */,
 				760CF8A5282E250400C60C94 /* ContentView.swift */,
 				760CF8A6282E250600C60C94 /* Assets.xcassets */,
+				760CF936282E2F2D00C60C94 /* AppMain.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -484,6 +488,7 @@
 				760CF925282E2D1900C60C94 /* DateExtension.swift in Sources */,
 				760CF8B6282E250600C60C94 /* ContentView.swift in Sources */,
 				760CF8E6282E292500C60C94 /* DictionaryExtension.swift in Sources */,
+				760CF937282E2F2D00C60C94 /* AppMain.swift in Sources */,
 				760CF8EB282E296E00C60C94 /* AuthUser.swift in Sources */,
 				760CF8FE282E2A7300C60C94 /* CommonCountry.swift in Sources */,
 				760CF90D282E2B7500C60C94 /* CoreEntity.swift in Sources */,
@@ -523,6 +528,7 @@
 				760CF926282E2D1900C60C94 /* DateExtension.swift in Sources */,
 				760CF8B7282E250600C60C94 /* ContentView.swift in Sources */,
 				760CF8E7282E292500C60C94 /* DictionaryExtension.swift in Sources */,
+				760CF938282E2F2D00C60C94 /* AppMain.swift in Sources */,
 				760CF8EC282E296E00C60C94 /* AuthUser.swift in Sources */,
 				760CF8FF282E2A7300C60C94 /* CommonCountry.swift in Sources */,
 				760CF90E282E2B7500C60C94 /* CoreEntity.swift in Sources */,
