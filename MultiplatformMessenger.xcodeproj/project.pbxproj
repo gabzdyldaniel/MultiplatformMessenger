@@ -104,6 +104,22 @@
 		76542A81282FD76800E4A33C /* ChatroomListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A7F282FD76800E4A33C /* ChatroomListCell.swift */; };
 		76542A84282FD7B000E4A33C /* B2aDicoUserUserUserExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A83282FD7B000E4A33C /* B2aDicoUserUserUserExtension.swift */; };
 		76542A85282FD7B000E4A33C /* B2aDicoUserUserUserExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A83282FD7B000E4A33C /* B2aDicoUserUserUserExtension.swift */; };
+		76542A88282FE4A000E4A33C /* ChatroomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A87282FE4A000E4A33C /* ChatroomDetailView.swift */; };
+		76542A89282FE4A000E4A33C /* ChatroomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A87282FE4A000E4A33C /* ChatroomDetailView.swift */; };
+		76542A8B282FE4D100E4A33C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A8A282FE4D100E4A33C /* MessageView.swift */; };
+		76542A8C282FE4D100E4A33C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A8A282FE4D100E4A33C /* MessageView.swift */; };
+		76542A8E282FE63300E4A33C /* MessageAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A8D282FE63300E4A33C /* MessageAreaView.swift */; };
+		76542A8F282FE63300E4A33C /* MessageAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A8D282FE63300E4A33C /* MessageAreaView.swift */; };
+		76542A91282FE6DB00E4A33C /* ChatroomDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A90282FE6DB00E4A33C /* ChatroomDetailViewModel.swift */; };
+		76542A92282FE6DB00E4A33C /* ChatroomDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A90282FE6DB00E4A33C /* ChatroomDetailViewModel.swift */; };
+		76542A95282FE72000E4A33C /* GroupedMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A94282FE72000E4A33C /* GroupedMessages.swift */; };
+		76542A96282FE72000E4A33C /* GroupedMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A94282FE72000E4A33C /* GroupedMessages.swift */; };
+		76542A98282FE79500E4A33C /* DateComponentsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A97282FE79500E4A33C /* DateComponentsExtension.swift */; };
+		76542A99282FE79500E4A33C /* DateComponentsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A97282FE79500E4A33C /* DateComponentsExtension.swift */; };
+		76542A9B282FE9BE00E4A33C /* DayDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A9A282FE9BE00E4A33C /* DayDividerView.swift */; };
+		76542A9C282FE9BE00E4A33C /* DayDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A9A282FE9BE00E4A33C /* DayDividerView.swift */; };
+		76542A9E282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A9D282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift */; };
+		76542A9F282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A9D282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift */; };
 		B73E62DCA9168E85A79C3D7A /* Pods_MultiplatformMessenger__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE87E98174622B1E190BB937 /* Pods_MultiplatformMessenger__macOS_.framework */; };
 /* End PBXBuildFile section */
 
@@ -163,6 +179,14 @@
 		76542A7C282FD73800E4A33C /* InitialsAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialsAvatarView.swift; sourceTree = "<group>"; };
 		76542A7F282FD76800E4A33C /* ChatroomListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatroomListCell.swift; sourceTree = "<group>"; };
 		76542A83282FD7B000E4A33C /* B2aDicoUserUserUserExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2aDicoUserUserUserExtension.swift; sourceTree = "<group>"; };
+		76542A87282FE4A000E4A33C /* ChatroomDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatroomDetailView.swift; sourceTree = "<group>"; };
+		76542A8A282FE4D100E4A33C /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		76542A8D282FE63300E4A33C /* MessageAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageAreaView.swift; sourceTree = "<group>"; };
+		76542A90282FE6DB00E4A33C /* ChatroomDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatroomDetailViewModel.swift; sourceTree = "<group>"; };
+		76542A94282FE72000E4A33C /* GroupedMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedMessages.swift; sourceTree = "<group>"; };
+		76542A97282FE79500E4A33C /* DateComponentsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponentsExtension.swift; sourceTree = "<group>"; };
+		76542A9A282FE9BE00E4A33C /* DayDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDividerView.swift; sourceTree = "<group>"; };
+		76542A9D282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2aDicoMessengerMessageExtension.swift; sourceTree = "<group>"; };
 		9A8335E6CE4F6E4428649806 /* Pods_MultiplatformMessenger__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiplatformMessenger__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE87E98174622B1E190BB937 /* Pods_MultiplatformMessenger__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiplatformMessenger__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07D33D8E18C25D8CA7AFFC2 /* Pods-MultiplatformMessenger (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiplatformMessenger (iOS).debug.xcconfig"; path = "Target Support Files/Pods-MultiplatformMessenger (iOS)/Pods-MultiplatformMessenger (iOS).debug.xcconfig"; sourceTree = "<group>"; };
@@ -214,6 +238,7 @@
 		760CF8A3282E250400C60C94 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				76542A93282FE71400E4A33C /* Models */,
 				760CF8CA282E282600C60C94 /* ApiObjects */,
 				760CF8C6282E27B300C60C94 /* Services */,
 				760CF8C3282E279800C60C94 /* UI */,
@@ -251,6 +276,7 @@
 				760CF924282E2D1900C60C94 /* DateExtension.swift */,
 				760CF943282E300000C60C94 /* ColorExtension.swift */,
 				760CF946282E304100C60C94 /* ViewExtension.swift */,
+				76542A97282FE79500E4A33C /* DateComponentsExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -270,6 +296,9 @@
 				76542A6C282FAEB300E4A33C /* LoadingView.swift */,
 				76542A79282FBD8000E4A33C /* FilterToggle.swift */,
 				76542A7C282FD73800E4A33C /* InitialsAvatarView.swift */,
+				76542A8A282FE4D100E4A33C /* MessageView.swift */,
+				76542A8D282FE63300E4A33C /* MessageAreaView.swift */,
+				76542A9A282FE9BE00E4A33C /* DayDividerView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -277,6 +306,7 @@
 		760CF8C5282E27A300C60C94 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				76542A86282FE48A00E4A33C /* ChatroomDetailView */,
 				76542A6F282FBC6F00E4A33C /* ChatroomListView */,
 				760CF939282E2F7600C60C94 /* LoginView */,
 				76542A69282FAE8C00E4A33C /* BaseView.swift */,
@@ -375,8 +405,26 @@
 			isa = PBXGroup;
 			children = (
 				76542A83282FD7B000E4A33C /* B2aDicoUserUserUserExtension.swift */,
+				76542A9D282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		76542A86282FE48A00E4A33C /* ChatroomDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				76542A87282FE4A000E4A33C /* ChatroomDetailView.swift */,
+				76542A90282FE6DB00E4A33C /* ChatroomDetailViewModel.swift */,
+			);
+			path = ChatroomDetailView;
+			sourceTree = "<group>";
+		};
+		76542A93282FE71400E4A33C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76542A94282FE72000E4A33C /* GroupedMessages.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		A7F1CEE13610DEDD74A6FA9D /* Frameworks */ = {
@@ -576,13 +624,17 @@
 				760CF928282E2D4700C60C94 /* MentionMention.swift in Sources */,
 				760CF91F282E2C9B00C60C94 /* CommonColor.swift in Sources */,
 				760CF925282E2D1900C60C94 /* DateExtension.swift in Sources */,
+				76542A98282FE79500E4A33C /* DateComponentsExtension.swift in Sources */,
 				760CF8B6282E250600C60C94 /* ContentView.swift in Sources */,
 				760CF8E6282E292500C60C94 /* DictionaryExtension.swift in Sources */,
+				76542A91282FE6DB00E4A33C /* ChatroomDetailViewModel.swift in Sources */,
 				760CF937282E2F2D00C60C94 /* AppMain.swift in Sources */,
 				760CF8EB282E296E00C60C94 /* AuthUser.swift in Sources */,
 				760CF8FE282E2A7300C60C94 /* CommonCountry.swift in Sources */,
 				760CF93B282E2F8200C60C94 /* LoginView.swift in Sources */,
 				760CF90D282E2B7500C60C94 /* CoreEntity.swift in Sources */,
+				76542A8B282FE4D100E4A33C /* MessageView.swift in Sources */,
+				76542A8E282FE63300E4A33C /* MessageAreaView.swift in Sources */,
 				760CF8F8282E2A2C00C60C94 /* UserUser.swift in Sources */,
 				76542A7A282FBD8000E4A33C /* FilterToggle.swift in Sources */,
 				76542A6D282FAEB300E4A33C /* LoadingView.swift in Sources */,
@@ -594,6 +646,7 @@
 				760CF8F2282E29A900C60C94 /* ApiCollection.swift in Sources */,
 				760CF904282E2AC200C60C94 /* HRMQualification.swift in Sources */,
 				760CF941282E2FD700C60C94 /* LoginTextFieldStyle.swift in Sources */,
+				76542A95282FE72000E4A33C /* GroupedMessages.swift in Sources */,
 				76542A77282FBD5A00E4A33C /* ChatroomListFilterView.swift in Sources */,
 				760CF907282E2B1D00C60C94 /* DicoMqttMessage.swift in Sources */,
 				760CF913282E2BBD00C60C94 /* MessengerChatRoom.swift in Sources */,
@@ -601,10 +654,12 @@
 				760CF901282E2AA200C60C94 /* HRMEployee.swift in Sources */,
 				76542A84282FD7B000E4A33C /* B2aDicoUserUserUserExtension.swift in Sources */,
 				760CF922282E2CCF00C60C94 /* TimeZoneExtension.swift in Sources */,
+				76542A88282FE4A000E4A33C /* ChatroomDetailView.swift in Sources */,
 				760CF934282E2E7F00C60C94 /* DoubleTransformType.swift in Sources */,
 				760CF92E282E2E5D00C60C94 /* ApiObjectTransformType.swift in Sources */,
 				760CF919282E2C7600C60C94 /* FileFile.swift in Sources */,
 				76542A6A282FAE8C00E4A33C /* BaseView.swift in Sources */,
+				76542A9E282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift in Sources */,
 				760CF90A282E2B4D00C60C94 /* MQTTClient.swift in Sources */,
 				76542A80282FD76800E4A33C /* ChatroomListCell.swift in Sources */,
 				760CF8C8282E27DB00C60C94 /* UserService.swift in Sources */,
@@ -616,6 +671,7 @@
 				760CF947282E304100C60C94 /* ViewExtension.swift in Sources */,
 				760CF916282E2C5300C60C94 /* OHCenter.swift in Sources */,
 				760CF92B282E2E4100C60C94 /* AnyApiObjectTransformType.swift in Sources */,
+				76542A9B282FE9BE00E4A33C /* DayDividerView.swift in Sources */,
 				760CF94A282E308400C60C94 /* NetworkService.swift in Sources */,
 				760CF931282E2E6F00C60C94 /* DateTransformType.swift in Sources */,
 			);
@@ -630,13 +686,17 @@
 				760CF929282E2D4700C60C94 /* MentionMention.swift in Sources */,
 				760CF920282E2C9B00C60C94 /* CommonColor.swift in Sources */,
 				760CF926282E2D1900C60C94 /* DateExtension.swift in Sources */,
+				76542A99282FE79500E4A33C /* DateComponentsExtension.swift in Sources */,
 				760CF8B7282E250600C60C94 /* ContentView.swift in Sources */,
 				760CF8E7282E292500C60C94 /* DictionaryExtension.swift in Sources */,
+				76542A92282FE6DB00E4A33C /* ChatroomDetailViewModel.swift in Sources */,
 				760CF8EC282E296E00C60C94 /* AuthUser.swift in Sources */,
 				760CF8FF282E2A7300C60C94 /* CommonCountry.swift in Sources */,
 				760CF93C282E2F8200C60C94 /* LoginView.swift in Sources */,
 				760CF90E282E2B7500C60C94 /* CoreEntity.swift in Sources */,
 				760CF8F9282E2A2C00C60C94 /* UserUser.swift in Sources */,
+				76542A8C282FE4D100E4A33C /* MessageView.swift in Sources */,
+				76542A8F282FE63300E4A33C /* MessageAreaView.swift in Sources */,
 				760CF93F282E2F9700C60C94 /* LoginViewModel.swift in Sources */,
 				76542A7B282FBD8000E4A33C /* FilterToggle.swift in Sources */,
 				76542A6E282FAEB300E4A33C /* LoadingView.swift in Sources */,
@@ -648,6 +708,7 @@
 				760CF905282E2AC200C60C94 /* HRMQualification.swift in Sources */,
 				760CF942282E2FD700C60C94 /* LoginTextFieldStyle.swift in Sources */,
 				760CF908282E2B1D00C60C94 /* DicoMqttMessage.swift in Sources */,
+				76542A96282FE72000E4A33C /* GroupedMessages.swift in Sources */,
 				76542A78282FBD5A00E4A33C /* ChatroomListFilterView.swift in Sources */,
 				760CF914282E2BBD00C60C94 /* MessengerChatRoom.swift in Sources */,
 				760CF8EF282E299300C60C94 /* AuthPerson.swift in Sources */,
@@ -655,10 +716,12 @@
 				760CF923282E2CCF00C60C94 /* TimeZoneExtension.swift in Sources */,
 				76542A85282FD7B000E4A33C /* B2aDicoUserUserUserExtension.swift in Sources */,
 				760CF935282E2E7F00C60C94 /* DoubleTransformType.swift in Sources */,
+				76542A89282FE4A000E4A33C /* ChatroomDetailView.swift in Sources */,
 				760CF92F282E2E5D00C60C94 /* ApiObjectTransformType.swift in Sources */,
 				760CF91A282E2C7600C60C94 /* FileFile.swift in Sources */,
 				76542A68282FAA7700E4A33C /* AppMain.swift in Sources */,
 				76542A6B282FAE8C00E4A33C /* BaseView.swift in Sources */,
+				76542A9F282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift in Sources */,
 				760CF90B282E2B4D00C60C94 /* MQTTClient.swift in Sources */,
 				76542A81282FD76800E4A33C /* ChatroomListCell.swift in Sources */,
 				760CF8C9282E27DB00C60C94 /* UserService.swift in Sources */,
@@ -670,6 +733,7 @@
 				760CF948282E304100C60C94 /* ViewExtension.swift in Sources */,
 				760CF917282E2C5300C60C94 /* OHCenter.swift in Sources */,
 				760CF92C282E2E4100C60C94 /* AnyApiObjectTransformType.swift in Sources */,
+				76542A9C282FE9BE00E4A33C /* DayDividerView.swift in Sources */,
 				760CF94B282E308400C60C94 /* NetworkService.swift in Sources */,
 				760CF932282E2E6F00C60C94 /* DateTransformType.swift in Sources */,
 			);

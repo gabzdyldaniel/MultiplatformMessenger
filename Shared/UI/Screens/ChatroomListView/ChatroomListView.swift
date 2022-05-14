@@ -18,8 +18,12 @@ struct ChatroomListView: View {
                                        isRelevantFilterOn: $viewModel.isRelevantFilterOn)
                 List {
                     ForEach(viewModel.chatrooms, id: \.id) { chatroom in
-                        ChatroomListCell(chatroom: chatroom,
-                                         lastMessage: chatroom.lastMessages.last)
+                        NavigationLink {
+                            ChatroomDetailView(chatroom: chatroom)
+                        } label: {
+                            ChatroomListCell(chatroom: chatroom,
+                                             lastMessage: chatroom.lastMessages.last)
+                        }
                     }
                 }
             }

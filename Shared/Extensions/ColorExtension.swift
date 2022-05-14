@@ -22,4 +22,9 @@ public extension Color {
                                      green: 170.0 / 255.0,
                                      blue: 125.0 / 255.0,
                                      opacity: 1.0)
+
+    static var paleGreyThree = Color(red: 248.0 / 255.0,
+                                     green: 250.0 / 255.0,
+                                     blue: 252.0 / 255.0,
+                                     opacity: 1.0)
 }
