@@ -13,7 +13,7 @@ extension LoginView {
         @Published var personalNr: String = .empty
         @Published var pin: String = .empty
 
-        @Published var isLoading: Bool = true
+        @Published var isLoading: Bool = false
 
         func signIn() {
             isLoading = true
