@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         if userService.isLogged {
             NavigationView {
-                Text("Přihlášen")
+                ChatroomListView()
                     .toolbar {
                         Button("Odhlásit se") {
                             userService.logout()
