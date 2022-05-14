@@ -13,7 +13,10 @@ extension LoginView {
         @Published var personalNr: String = .empty
         @Published var pin: String = .empty
 
+        @Published var isLoading: Bool = true
+
         func signIn() {
+            isLoading = true
             NetworkService.shared
                 .makeRequest("/auth/api/v1/employee/personal-nr-and-pin",
                              method: .post,
@@ -24,6 +27,7 @@ extension LoginView {
                              ])
                 .validate()
                 .responseJSON { response in
+                    self.isLoading = false
                     switch response.result {
                     case .success(let json as [String: Any]):
                         guard let data = json["data"] as? [String: Any] else { fallthrough }

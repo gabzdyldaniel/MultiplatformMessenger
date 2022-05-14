@@ -13,7 +13,14 @@ struct ContentView: View {
 
     var body: some View {
         if userService.isLogged {
-            Text("Přihlášen")
+            NavigationView {
+                Text("Přihlášen")
+                    .toolbar {
+                        Button("Odhlásit se") {
+                            userService.logout()
+                        }
+                    }
+            }
         } else {
             LoginView()
         }

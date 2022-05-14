@@ -12,20 +12,22 @@ struct LoginView: View {
     @StateObject private var viewModel = ViewModel()
 
     var body: some View {
-        VStack {
-            TextField("Osobní číslo", text: $viewModel.personalNr)
-                .textFieldStyle(LoginTextFieldStyle())
+        BaseView(isLoading: $viewModel.isLoading) {
+            VStack {
+                TextField("Osobní číslo", text: $viewModel.personalNr)
+                    .textFieldStyle(LoginTextFieldStyle())
 
-            SecureField("Pin", text: $viewModel.pin)
-                .textFieldStyle(LoginTextFieldStyle())
+                SecureField("Pin", text: $viewModel.pin)
+                    .textFieldStyle(LoginTextFieldStyle())
 
-            Button(action: {
-                viewModel.signIn()
-            }, label: {
-                Text("Přihlásit se")
-            })
+                Button(action: {
+                    viewModel.signIn()
+                }, label: {
+                    Text("Přihlásit se")
+                })
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
