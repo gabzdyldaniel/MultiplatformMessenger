@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3210DDD95C116920C679CF0C /* Pods_MultiplatformMessenger__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8335E6CE4F6E4428649806 /* Pods_MultiplatformMessenger__iOS_.framework */; };
-		760CF8B4282E250600C60C94 /* MultiplatformMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8A4282E250400C60C94 /* MultiplatformMessengerApp.swift */; };
-		760CF8B5282E250600C60C94 /* MultiplatformMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8A4282E250400C60C94 /* MultiplatformMessengerApp.swift */; };
 		760CF8B6282E250600C60C94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8A5282E250400C60C94 /* ContentView.swift */; };
 		760CF8B7282E250600C60C94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF8A5282E250400C60C94 /* ContentView.swift */; };
 		760CF8B8282E250600C60C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760CF8A6282E250600C60C94 /* Assets.xcassets */; };
@@ -75,7 +73,19 @@
 		760CF934282E2E7F00C60C94 /* DoubleTransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF933282E2E7F00C60C94 /* DoubleTransformType.swift */; };
 		760CF935282E2E7F00C60C94 /* DoubleTransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF933282E2E7F00C60C94 /* DoubleTransformType.swift */; };
 		760CF937282E2F2D00C60C94 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF936282E2F2D00C60C94 /* AppMain.swift */; };
-		760CF938282E2F2D00C60C94 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF936282E2F2D00C60C94 /* AppMain.swift */; };
+		760CF93B282E2F8200C60C94 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF93A282E2F8200C60C94 /* LoginView.swift */; };
+		760CF93C282E2F8200C60C94 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF93A282E2F8200C60C94 /* LoginView.swift */; };
+		760CF93E282E2F9700C60C94 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF93D282E2F9700C60C94 /* LoginViewModel.swift */; };
+		760CF93F282E2F9700C60C94 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF93D282E2F9700C60C94 /* LoginViewModel.swift */; };
+		760CF941282E2FD700C60C94 /* LoginTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF940282E2FD700C60C94 /* LoginTextFieldStyle.swift */; };
+		760CF942282E2FD700C60C94 /* LoginTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF940282E2FD700C60C94 /* LoginTextFieldStyle.swift */; };
+		760CF944282E300000C60C94 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF943282E300000C60C94 /* ColorExtension.swift */; };
+		760CF945282E300000C60C94 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF943282E300000C60C94 /* ColorExtension.swift */; };
+		760CF947282E304100C60C94 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF946282E304100C60C94 /* ViewExtension.swift */; };
+		760CF948282E304100C60C94 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF946282E304100C60C94 /* ViewExtension.swift */; };
+		760CF94A282E308400C60C94 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF949282E308400C60C94 /* NetworkService.swift */; };
+		760CF94B282E308400C60C94 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF949282E308400C60C94 /* NetworkService.swift */; };
+		76542A68282FAA7700E4A33C /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A67282FAA7700E4A33C /* AppMain.swift */; };
 		B73E62DCA9168E85A79C3D7A /* Pods_MultiplatformMessenger__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE87E98174622B1E190BB937 /* Pods_MultiplatformMessenger__macOS_.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,7 +93,6 @@
 		37A96FA52D4B0665C063FC89 /* Pods-MultiplatformMessenger (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiplatformMessenger (macOS).debug.xcconfig"; path = "Target Support Files/Pods-MultiplatformMessenger (macOS)/Pods-MultiplatformMessenger (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 		4678B48B1F136FFCF4454EBC /* Pods-MultiplatformMessenger (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiplatformMessenger (macOS).release.xcconfig"; path = "Target Support Files/Pods-MultiplatformMessenger (macOS)/Pods-MultiplatformMessenger (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		756E5F0950CAC6D3169FCFD7 /* Pods-MultiplatformMessenger (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiplatformMessenger (iOS).release.xcconfig"; path = "Target Support Files/Pods-MultiplatformMessenger (iOS)/Pods-MultiplatformMessenger (iOS).release.xcconfig"; sourceTree = "<group>"; };
-		760CF8A4282E250400C60C94 /* MultiplatformMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplatformMessengerApp.swift; sourceTree = "<group>"; };
 		760CF8A5282E250400C60C94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		760CF8A6282E250600C60C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		760CF8AB282E250600C60C94 /* MultiplatformMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplatformMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +129,13 @@
 		760CF930282E2E6F00C60C94 /* DateTransformType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTransformType.swift; sourceTree = "<group>"; };
 		760CF933282E2E7F00C60C94 /* DoubleTransformType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTransformType.swift; sourceTree = "<group>"; };
 		760CF936282E2F2D00C60C94 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
+		760CF93A282E2F8200C60C94 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		760CF93D282E2F9700C60C94 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		760CF940282E2FD700C60C94 /* LoginTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldStyle.swift; sourceTree = "<group>"; };
+		760CF943282E300000C60C94 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		760CF946282E304100C60C94 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		760CF949282E308400C60C94 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		76542A67282FAA7700E4A33C /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		9A8335E6CE4F6E4428649806 /* Pods_MultiplatformMessenger__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiplatformMessenger__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE87E98174622B1E190BB937 /* Pods_MultiplatformMessenger__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiplatformMessenger__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07D33D8E18C25D8CA7AFFC2 /* Pods-MultiplatformMessenger (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiplatformMessenger (iOS).debug.xcconfig"; path = "Target Support Files/Pods-MultiplatformMessenger (iOS)/Pods-MultiplatformMessenger (iOS).debug.xcconfig"; sourceTree = "<group>"; };
@@ -159,6 +175,7 @@
 		760CF89E282E250400C60C94 = {
 			isa = PBXGroup;
 			children = (
+				76542A66282FAA4D00E4A33C /* iOS */,
 				760CF8A3282E250400C60C94 /* Shared */,
 				760CF8B2282E250600C60C94 /* macOS */,
 				760CF8AC282E250600C60C94 /* Products */,
@@ -174,10 +191,8 @@
 				760CF8C6282E27B300C60C94 /* Services */,
 				760CF8C3282E279800C60C94 /* UI */,
 				760CF8C2282E261900C60C94 /* Extensions */,
-				760CF8A4282E250400C60C94 /* MultiplatformMessengerApp.swift */,
 				760CF8A5282E250400C60C94 /* ContentView.swift */,
 				760CF8A6282E250600C60C94 /* Assets.xcassets */,
-				760CF936282E2F2D00C60C94 /* AppMain.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -195,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				760CF8B3282E250600C60C94 /* macOS.entitlements */,
+				76542A67282FAA7700E4A33C /* AppMain.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -206,6 +222,8 @@
 				760CF8E5282E292500C60C94 /* DictionaryExtension.swift */,
 				760CF921282E2CCF00C60C94 /* TimeZoneExtension.swift */,
 				760CF924282E2D1900C60C94 /* DateExtension.swift */,
+				760CF943282E300000C60C94 /* ColorExtension.swift */,
+				760CF946282E304100C60C94 /* ViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -229,6 +247,7 @@
 		760CF8C5282E27A300C60C94 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				760CF939282E2F7600C60C94 /* LoginView */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -237,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				760CF8C7282E27DB00C60C94 /* UserService.swift */,
+				760CF949282E308400C60C94 /* NetworkService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -287,6 +307,24 @@
 				760CF933282E2E7F00C60C94 /* DoubleTransformType.swift */,
 			);
 			path = TransformType;
+			sourceTree = "<group>";
+		};
+		760CF939282E2F7600C60C94 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				760CF93A282E2F8200C60C94 /* LoginView.swift */,
+				760CF93D282E2F9700C60C94 /* LoginViewModel.swift */,
+				760CF940282E2FD700C60C94 /* LoginTextFieldStyle.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		76542A66282FAA4D00E4A33C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				760CF936282E2F2D00C60C94 /* AppMain.swift */,
+			);
+			path = iOS;
 			sourceTree = "<group>";
 		};
 		A7F1CEE13610DEDD74A6FA9D /* Frameworks */ = {
@@ -491,13 +529,15 @@
 				760CF937282E2F2D00C60C94 /* AppMain.swift in Sources */,
 				760CF8EB282E296E00C60C94 /* AuthUser.swift in Sources */,
 				760CF8FE282E2A7300C60C94 /* CommonCountry.swift in Sources */,
+				760CF93B282E2F8200C60C94 /* LoginView.swift in Sources */,
 				760CF90D282E2B7500C60C94 /* CoreEntity.swift in Sources */,
 				760CF8F8282E2A2C00C60C94 /* UserUser.swift in Sources */,
+				760CF93E282E2F9700C60C94 /* LoginViewModel.swift in Sources */,
 				760CF8CF282E288700C60C94 /* StringExtension.swift in Sources */,
-				760CF8B4282E250600C60C94 /* MultiplatformMessengerApp.swift in Sources */,
 				760CF8FB282E2A4D00C60C94 /* CommonApp.swift in Sources */,
 				760CF8F2282E29A900C60C94 /* ApiCollection.swift in Sources */,
 				760CF904282E2AC200C60C94 /* HRMQualification.swift in Sources */,
+				760CF941282E2FD700C60C94 /* LoginTextFieldStyle.swift in Sources */,
 				760CF907282E2B1D00C60C94 /* DicoMqttMessage.swift in Sources */,
 				760CF913282E2BBD00C60C94 /* MessengerChatRoom.swift in Sources */,
 				760CF8EE282E299300C60C94 /* AuthPerson.swift in Sources */,
@@ -510,9 +550,12 @@
 				760CF8C8282E27DB00C60C94 /* UserService.swift in Sources */,
 				760CF91C282E2C8600C60C94 /* CommonAction.swift in Sources */,
 				760CF8F0282E29A500C60C94 /* ApiObject.swift in Sources */,
+				760CF944282E300000C60C94 /* ColorExtension.swift in Sources */,
 				760CF910282E2B9F00C60C94 /* MessengerMessage.swift in Sources */,
+				760CF947282E304100C60C94 /* ViewExtension.swift in Sources */,
 				760CF916282E2C5300C60C94 /* OHCenter.swift in Sources */,
 				760CF92B282E2E4100C60C94 /* AnyApiObjectTransformType.swift in Sources */,
+				760CF94A282E308400C60C94 /* NetworkService.swift in Sources */,
 				760CF931282E2E6F00C60C94 /* DateTransformType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,16 +571,17 @@
 				760CF926282E2D1900C60C94 /* DateExtension.swift in Sources */,
 				760CF8B7282E250600C60C94 /* ContentView.swift in Sources */,
 				760CF8E7282E292500C60C94 /* DictionaryExtension.swift in Sources */,
-				760CF938282E2F2D00C60C94 /* AppMain.swift in Sources */,
 				760CF8EC282E296E00C60C94 /* AuthUser.swift in Sources */,
 				760CF8FF282E2A7300C60C94 /* CommonCountry.swift in Sources */,
+				760CF93C282E2F8200C60C94 /* LoginView.swift in Sources */,
 				760CF90E282E2B7500C60C94 /* CoreEntity.swift in Sources */,
 				760CF8F9282E2A2C00C60C94 /* UserUser.swift in Sources */,
+				760CF93F282E2F9700C60C94 /* LoginViewModel.swift in Sources */,
 				760CF8D0282E288700C60C94 /* StringExtension.swift in Sources */,
-				760CF8B5282E250600C60C94 /* MultiplatformMessengerApp.swift in Sources */,
 				760CF8FC282E2A4D00C60C94 /* CommonApp.swift in Sources */,
 				760CF8F3282E29A900C60C94 /* ApiCollection.swift in Sources */,
 				760CF905282E2AC200C60C94 /* HRMQualification.swift in Sources */,
+				760CF942282E2FD700C60C94 /* LoginTextFieldStyle.swift in Sources */,
 				760CF908282E2B1D00C60C94 /* DicoMqttMessage.swift in Sources */,
 				760CF914282E2BBD00C60C94 /* MessengerChatRoom.swift in Sources */,
 				760CF8EF282E299300C60C94 /* AuthPerson.swift in Sources */,
@@ -546,13 +590,17 @@
 				760CF935282E2E7F00C60C94 /* DoubleTransformType.swift in Sources */,
 				760CF92F282E2E5D00C60C94 /* ApiObjectTransformType.swift in Sources */,
 				760CF91A282E2C7600C60C94 /* FileFile.swift in Sources */,
+				76542A68282FAA7700E4A33C /* AppMain.swift in Sources */,
 				760CF90B282E2B4D00C60C94 /* MQTTClient.swift in Sources */,
 				760CF8C9282E27DB00C60C94 /* UserService.swift in Sources */,
 				760CF91D282E2C8600C60C94 /* CommonAction.swift in Sources */,
 				760CF8F1282E29A500C60C94 /* ApiObject.swift in Sources */,
+				760CF945282E300000C60C94 /* ColorExtension.swift in Sources */,
 				760CF911282E2B9F00C60C94 /* MessengerMessage.swift in Sources */,
+				760CF948282E304100C60C94 /* ViewExtension.swift in Sources */,
 				760CF917282E2C5300C60C94 /* OHCenter.swift in Sources */,
 				760CF92C282E2E4100C60C94 /* AnyApiObjectTransformType.swift in Sources */,
+				760CF94B282E308400C60C94 /* NetworkService.swift in Sources */,
 				760CF932282E2E6F00C60C94 /* DateTransformType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

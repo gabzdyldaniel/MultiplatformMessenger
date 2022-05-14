@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @ObservedObject var userService = UserService.shared
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if userService.isLogged {
+            Text("Přihlášen")
+        } else {
+            LoginView()
+        }
     }
 }
 
