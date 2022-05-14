@@ -23,5 +23,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         UserService.shared.initUserFromDefaults()
+        MqttService.shared.prepareMqttConnection()
+        MqttService.shared.connect()
     }
 }

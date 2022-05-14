@@ -120,6 +120,8 @@
 		76542A9C282FE9BE00E4A33C /* DayDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A9A282FE9BE00E4A33C /* DayDividerView.swift */; };
 		76542A9E282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A9D282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift */; };
 		76542A9F282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A9D282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift */; };
+		76542AA1282FF05600E4A33C /* MqttService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542AA0282FF05600E4A33C /* MqttService.swift */; };
+		76542AA2282FF05600E4A33C /* MqttService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542AA0282FF05600E4A33C /* MqttService.swift */; };
 		B73E62DCA9168E85A79C3D7A /* Pods_MultiplatformMessenger__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE87E98174622B1E190BB937 /* Pods_MultiplatformMessenger__macOS_.framework */; };
 /* End PBXBuildFile section */
 
@@ -187,6 +189,7 @@
 		76542A97282FE79500E4A33C /* DateComponentsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponentsExtension.swift; sourceTree = "<group>"; };
 		76542A9A282FE9BE00E4A33C /* DayDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDividerView.swift; sourceTree = "<group>"; };
 		76542A9D282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2aDicoMessengerMessageExtension.swift; sourceTree = "<group>"; };
+		76542AA0282FF05600E4A33C /* MqttService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MqttService.swift; sourceTree = "<group>"; };
 		9A8335E6CE4F6E4428649806 /* Pods_MultiplatformMessenger__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiplatformMessenger__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE87E98174622B1E190BB937 /* Pods_MultiplatformMessenger__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiplatformMessenger__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07D33D8E18C25D8CA7AFFC2 /* Pods-MultiplatformMessenger (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiplatformMessenger (iOS).debug.xcconfig"; path = "Target Support Files/Pods-MultiplatformMessenger (iOS)/Pods-MultiplatformMessenger (iOS).debug.xcconfig"; sourceTree = "<group>"; };
@@ -319,6 +322,7 @@
 			children = (
 				760CF8C7282E27DB00C60C94 /* UserService.swift */,
 				760CF949282E308400C60C94 /* NetworkService.swift */,
+				76542AA0282FF05600E4A33C /* MqttService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -654,6 +658,7 @@
 				760CF901282E2AA200C60C94 /* HRMEployee.swift in Sources */,
 				76542A84282FD7B000E4A33C /* B2aDicoUserUserUserExtension.swift in Sources */,
 				760CF922282E2CCF00C60C94 /* TimeZoneExtension.swift in Sources */,
+				76542AA1282FF05600E4A33C /* MqttService.swift in Sources */,
 				76542A88282FE4A000E4A33C /* ChatroomDetailView.swift in Sources */,
 				760CF934282E2E7F00C60C94 /* DoubleTransformType.swift in Sources */,
 				760CF92E282E2E5D00C60C94 /* ApiObjectTransformType.swift in Sources */,
@@ -716,6 +721,7 @@
 				760CF923282E2CCF00C60C94 /* TimeZoneExtension.swift in Sources */,
 				76542A85282FD7B000E4A33C /* B2aDicoUserUserUserExtension.swift in Sources */,
 				760CF935282E2E7F00C60C94 /* DoubleTransformType.swift in Sources */,
+				76542AA2282FF05600E4A33C /* MqttService.swift in Sources */,
 				76542A89282FE4A000E4A33C /* ChatroomDetailView.swift in Sources */,
 				760CF92F282E2E5D00C60C94 /* ApiObjectTransformType.swift in Sources */,
 				760CF91A282E2C7600C60C94 /* FileFile.swift in Sources */,

@@ -55,6 +55,11 @@ struct ChatroomDetailView: View {
         .onAppear {
             guard let chatroomId = chatroom.id else { return }
             viewModel.getMessages(for: chatroomId)
+            viewModel.registerObserver()
+            viewModel.subscribe()
+        }
+        .onDisappear {
+            viewModel.unsubscribe()
         }
         .navigationTitle("\(chatroom.title)")
     }

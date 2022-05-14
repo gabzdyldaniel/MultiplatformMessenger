@@ -8,7 +8,7 @@
 import SwiftUI
 
 extension ChatroomDetailView {
-    class ViewModel: ObservableObject {
+    class ViewModel: ObservableObject, MqttObserver {
 
         @Published var message: String = .empty
         @Published var messages: [B2aDicoMessengerMessage] = [] {
@@ -31,6 +31,14 @@ extension ChatroomDetailView {
         @Published var isLoading: Bool = false
 
         private var chatroomId: Int?
+
+        var topic: String {
+            return "/b2a/messenger/chat-room/\(chatroomId ?? 0)/message"
+        }
+
+        func registerObserver() {
+            MqttService.shared.registerObserver(self)
+        }
 
         func getMessages(for chatroomId: Int) {
             isLoading = true
@@ -55,8 +63,44 @@ extension ChatroomDetailView {
                 }
         }
 
+        func subscribe() {
+            MqttService.shared.subscribe(to: topic)
+        }
+
+        func unsubscribe() {
+            MqttService.shared.unsubscribe(from: topic)
+        }
+
         func sendMessage() {
-            // TODO: implement once MqttService is available
+            guard let chatroomIdUnwrapped = chatroomId, message.isEmpty == false else {
+                return
+            }
+
+            let message = DicoMqttMessage()
+            message.type = "new-message"
+
+            let createObj = B2aDicoMessengerMessageCreate()
+            createObj.uuid = .uuidString(length: 64)
+            createObj.content = self.message
+
+            message.data = createObj
+
+            MqttService.shared.publish(string: message.toJSONString() ?? "",
+                                       topic: "/b2a/messenger/chat-room/\(chatroomIdUnwrapped)/new-message")
+
+            self.message = .empty
+        }
+
+        func onMessageReceive(_ payloadString: String, topic: String) {
+            guard let chatroomIdUnwrapped = chatroomId else {
+                return
+            }
+
+            if topic == "/b2a/messenger/chat-room/\(chatroomIdUnwrapped)/message" {
+                let message = DicoMqttMessage(JSONString: payloadString)
+                guard let messageAO = message?.data as? B2aDicoMessengerMessage else { return }
+                messages.append(messageAO)
+            }
         }
     }
 }

@@ -26,6 +26,9 @@ struct ChatroomListView: View {
                         }
                     }
                 }
+                .refreshable {
+                    viewModel.getChatrooms()
+                }
             }
         }
         .onAppear {

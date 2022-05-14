@@ -7,27 +7,17 @@
 
 import Foundation
 
-public class UserService: ObservableObject {
+class UserService: ObservableObject {
 
-    // MARK: - Shared instance
-
-    public static let shared = UserService()
-
-    // MARK: - Constants
+    static let shared = UserService()
 
     private let userKey = "user"
 
-    // MARK: - Observables
-
     @Published public var loggedUser: LoggedUser? = nil
-
-    // MARK: - Computed properties
 
     public var isLogged: Bool {
         return loggedUser != nil
     }
-
-    // MARK: - Helper functions
 
     public func initUserFromDefaults() {
         guard let data = UserDefaults.standard.data(forKey: userKey) else { return }
