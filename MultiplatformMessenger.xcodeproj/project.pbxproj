@@ -85,7 +85,6 @@
 		760CF948282E304100C60C94 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF946282E304100C60C94 /* ViewExtension.swift */; };
 		760CF94A282E308400C60C94 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF949282E308400C60C94 /* NetworkService.swift */; };
 		760CF94B282E308400C60C94 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF949282E308400C60C94 /* NetworkService.swift */; };
-		76542A68282FAA7700E4A33C /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A67282FAA7700E4A33C /* AppMain.swift */; };
 		76542A6A282FAE8C00E4A33C /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A69282FAE8C00E4A33C /* BaseView.swift */; };
 		76542A6B282FAE8C00E4A33C /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A69282FAE8C00E4A33C /* BaseView.swift */; };
 		76542A6D282FAEB300E4A33C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A6C282FAEB300E4A33C /* LoadingView.swift */; };
@@ -122,6 +121,7 @@
 		76542A9F282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542A9D282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift */; };
 		76542AA1282FF05600E4A33C /* MqttService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542AA0282FF05600E4A33C /* MqttService.swift */; };
 		76542AA2282FF05600E4A33C /* MqttService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76542AA0282FF05600E4A33C /* MqttService.swift */; };
+		76DA96A328325B4E0036A837 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760CF936282E2F2D00C60C94 /* AppMain.swift */; };
 		B73E62DCA9168E85A79C3D7A /* Pods_MultiplatformMessenger__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE87E98174622B1E190BB937 /* Pods_MultiplatformMessenger__macOS_.framework */; };
 /* End PBXBuildFile section */
 
@@ -171,7 +171,6 @@
 		760CF943282E300000C60C94 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		760CF946282E304100C60C94 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		760CF949282E308400C60C94 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
-		76542A67282FAA7700E4A33C /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		76542A69282FAE8C00E4A33C /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		76542A6C282FAEB300E4A33C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		76542A70282FBC7A00E4A33C /* ChatroomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatroomListView.swift; sourceTree = "<group>"; };
@@ -241,6 +240,7 @@
 		760CF8A3282E250400C60C94 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				760CF936282E2F2D00C60C94 /* AppMain.swift */,
 				76542A93282FE71400E4A33C /* Models */,
 				760CF8CA282E282600C60C94 /* ApiObjects */,
 				760CF8C6282E27B300C60C94 /* Services */,
@@ -265,7 +265,6 @@
 			isa = PBXGroup;
 			children = (
 				760CF8B3282E250600C60C94 /* macOS.entitlements */,
-				76542A67282FAA7700E4A33C /* AppMain.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -389,7 +388,6 @@
 		76542A66282FAA4D00E4A33C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				760CF936282E2F2D00C60C94 /* AppMain.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -716,6 +714,7 @@
 				76542A96282FE72000E4A33C /* GroupedMessages.swift in Sources */,
 				76542A78282FBD5A00E4A33C /* ChatroomListFilterView.swift in Sources */,
 				760CF914282E2BBD00C60C94 /* MessengerChatRoom.swift in Sources */,
+				76DA96A328325B4E0036A837 /* AppMain.swift in Sources */,
 				760CF8EF282E299300C60C94 /* AuthPerson.swift in Sources */,
 				760CF902282E2AA200C60C94 /* HRMEployee.swift in Sources */,
 				760CF923282E2CCF00C60C94 /* TimeZoneExtension.swift in Sources */,
@@ -725,7 +724,6 @@
 				76542A89282FE4A000E4A33C /* ChatroomDetailView.swift in Sources */,
 				760CF92F282E2E5D00C60C94 /* ApiObjectTransformType.swift in Sources */,
 				760CF91A282E2C7600C60C94 /* FileFile.swift in Sources */,
-				76542A68282FAA7700E4A33C /* AppMain.swift in Sources */,
 				76542A6B282FAE8C00E4A33C /* BaseView.swift in Sources */,
 				76542A9F282FEBD100E4A33C /* B2aDicoMessengerMessageExtension.swift in Sources */,
 				760CF90B282E2B4D00C60C94 /* MQTTClient.swift in Sources */,
