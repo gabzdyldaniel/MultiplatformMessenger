@@ -10,22 +10,15 @@ import SwiftUI
 @main
 struct AppMain: App {
 
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    init() {
+        UserService.shared.initUserFromDefaults()
+        MqttService.shared.prepareMqttConnection()
+        MqttService.shared.connect()
+    }
 
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
-    }
-}
-
-class AppDelegate: NSObject, UIApplicationDelegate {
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-
-        UserService.shared.initUserFromDefaults()
-        MqttService.shared.prepareMqttConnection()
-        MqttService.shared.connect()
-
-        return true
     }
 }
