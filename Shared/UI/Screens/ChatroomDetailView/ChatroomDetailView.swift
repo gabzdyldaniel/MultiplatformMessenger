@@ -17,7 +17,9 @@ struct ChatroomDetailView: View {
         self.chatroom = chatroom
 
         // sets clear background for TextEditor view
+        #if os(iOS)
         UITextView.appearance().backgroundColor = .clear
+        #endif
     }
 
     var body: some View {

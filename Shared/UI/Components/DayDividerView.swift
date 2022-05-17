@@ -13,7 +13,11 @@ struct DayDividerView: View {
 
     var body: some View {
         ZStack {
+            #if os(macOS)
+            Color(NSColor.controlBackgroundColor)
+            #else
             Color(UIColor.systemBackground)
+            #endif
             HStack {
                 Spacer()
                     .frame(height: 1)

@@ -13,13 +13,13 @@ extension ChatroomDetailView {
         @Published var message: String = .empty
         @Published var messages: [B2aDicoMessengerMessage] = [] {
             willSet {
-                let groupedDict = Dictionary(grouping: newValue) { (element: B2aDicoMessengerMessage) in
+                let groupedDict = Dictionary(grouping: newValue) {
                     return Calendar.current.dateComponents(
                         [.day, .year, .month, .calendar],
-                        from: Date(timeIntervalSince1970: element.timestamp))
-                }.sorted(by: {
+                        from: Date(timeIntervalSince1970: $0.timestamp))
+                }.sorted {
                     $0.key.date?.compare($1.key.date ?? Date()) == .orderedAscending
-                })
+                }
 
                 groups = Array(groupedDict).compactMap { item in
                     return GroupedMessages(date: item.key.toString(),
@@ -98,7 +98,9 @@ extension ChatroomDetailView {
 
             if topic == "/b2a/messenger/chat-room/\(chatroomIdUnwrapped)/message" {
                 let message = DicoMqttMessage(JSONString: payloadString)
-                guard let messageAO = message?.data as? B2aDicoMessengerMessage else { return }
+                guard let messageAO = message?.data as? B2aDicoMessengerMessage else {
+                    return
+                }
                 messages.append(messageAO)
             }
         }

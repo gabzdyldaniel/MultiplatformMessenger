@@ -19,16 +19,28 @@ struct MessageAreaView: View {
 
             Button(action: action, label: {
                 Image(systemName: "paperplane.fill")
-                    .padding(10)
-                    .foregroundColor(.white)
-                    .background(Color.greenBlueFour)
-                    .cornerRadius(8)
             })
+            .buttonStyle(SendButtonStyle())
+            .keyboardShortcut(KeyEquivalent.return)
             .padding()
         }
         .padding(5)
         .frame(maxWidth: .infinity, maxHeight: 150)
+        #if os(macOS)
+        .background(Color(NSColor.windowBackgroundColor))
+        #else
         .background(Color(UIColor.secondarySystemBackground))
+        #endif
+    }
+}
+
+struct SendButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .padding(10)
+            .foregroundColor(.white)
+            .background(Color.greenBlueFour)
+            .cornerRadius(8)
     }
 }
 

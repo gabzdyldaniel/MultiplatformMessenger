@@ -15,14 +15,16 @@ struct ChatroomListCell: View {
     var body: some View {
         HStack(spacing: 15) {
             InitialsAvatarView(initials: lastMessage?.createdBy?.initials ?? "N/A")
+                .if((chatroom.lastMessageTimestamp ?? 0) > (chatroom.userSetting?.lastSeenMessageTimestamp ?? 0)) {
+                    $0.overlay {
+                        Circle().stroke(Color.greenBlueFour, lineWidth: 2)
+                    }
+                }
             VStack(alignment: .leading) {
                 HStack {
                     Text(chatroom.title)
                         .bold()
                         .lineLimit(1)
-                        .if((chatroom.lastMessageTimestamp ?? 0) > (chatroom.userSetting?.lastSeenMessageTimestamp ?? 0)) {
-                            $0.background(.red)
-                        }
 
                     Spacer()
 

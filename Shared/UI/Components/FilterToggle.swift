@@ -20,7 +20,11 @@ struct FilterToggle: View {
     var body: some View {
         Toggle(title, isOn: $isOn)
             .frame(maxWidth: .infinity)
+            #if os(macOS)
+            .toggleStyle(.checkbox)
+            #else
             .toggleStyle(.button)
+            #endif
             .tint(Color.primary)
     }
 }

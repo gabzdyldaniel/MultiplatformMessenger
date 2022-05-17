@@ -21,6 +21,9 @@ struct ContentView: View {
                         }
                     }
             }
+            .macOS {
+                $0.frame(minWidth: 1230, minHeight: 715)
+            }
         } else {
             LoginView()
         }

@@ -5,7 +5,7 @@
 //  Created by Daniel Gabzdyl on 13.05.2022.
 //
 
-import Foundation
+import SwiftUI
 
 class UserService: ObservableObject {
 

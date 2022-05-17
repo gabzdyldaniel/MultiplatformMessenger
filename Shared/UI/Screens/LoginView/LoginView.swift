@@ -14,11 +14,19 @@ struct LoginView: View {
     var body: some View {
         BaseView(isLoading: $viewModel.isLoading) {
             VStack {
+                Text("Přihlášení")
+                    .font(.largeTitle)
+                    .bold()
+
                 TextField("Osobní číslo", text: $viewModel.personalNr)
-                    .textFieldStyle(LoginTextFieldStyle())
+                    .iOS {
+                        $0.textFieldStyle(LoginTextFieldStyle())
+                    }
 
                 SecureField("Pin", text: $viewModel.pin)
-                    .textFieldStyle(LoginTextFieldStyle())
+                    .iOS {
+                        $0.textFieldStyle(LoginTextFieldStyle())
+                    }
 
                 Button(action: {
                     viewModel.signIn()
@@ -27,6 +35,9 @@ struct LoginView: View {
                 })
             }
             .padding()
+        }
+        .macOS {
+            $0.frame(width: 500, height: 300)
         }
     }
 }
