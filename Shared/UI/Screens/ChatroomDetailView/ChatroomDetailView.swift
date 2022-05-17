@@ -44,6 +44,8 @@ struct ChatroomDetailView: View {
                                 }
                                 scrollView.scrollTo(lastMessageTimestamp)
                             }
+
+                            viewModel.readMessage()
                         }
                     }
                 }

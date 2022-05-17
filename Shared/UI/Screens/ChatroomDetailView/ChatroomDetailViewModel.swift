@@ -36,6 +36,10 @@ extension ChatroomDetailView {
             return "/b2a/messenger/chat-room/\(chatroomId ?? 0)/message"
         }
 
+        var readMessageTopic: String {
+            return "/b2a/messenger/chat-room/\(chatroomId ?? 0)/read-message"
+        }
+
         func registerObserver() {
             MqttService.shared.registerObserver(self)
         }
@@ -89,6 +93,23 @@ extension ChatroomDetailView {
                                        topic: "/b2a/messenger/chat-room/\(chatroomIdUnwrapped)/new-message")
 
             self.message = .empty
+        }
+
+        func readMessage() {
+            guard let lastMessageUuid = messages.last?.uuid else { return }
+            let message = DicoMqttMessage()
+            message.type = "read-message"
+
+            let readMessage = B2aDicoMessengerMessageRead()
+            readMessage.uuid = lastMessageUuid
+
+            message.data = readMessage
+
+            guard let messageJson = message.toJSONString() else {
+                return
+            }
+            MqttService.shared.publish(string: messageJson,
+                                       topic: readMessageTopic)
         }
 
         func onMessageReceive(_ payloadString: String, topic: String) {
