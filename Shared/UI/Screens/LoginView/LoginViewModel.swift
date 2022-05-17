@@ -14,6 +14,7 @@ extension LoginView {
         @Published var pin: String = .empty
 
         @Published var isLoading: Bool = false
+        @Published var showingAlert = false
 
         func signIn() {
             isLoading = true
@@ -36,6 +37,7 @@ extension LoginView {
                         UserService.shared.saveToDefaults()
                         break
                     default:
+                        self.showingAlert = true
                         break
                     }
                 }

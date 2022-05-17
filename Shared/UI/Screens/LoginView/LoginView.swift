@@ -39,6 +39,10 @@ struct LoginView: View {
         .macOS {
             $0.frame(width: 500, height: 300)
         }
+        .alert("Přihlášení se nepodařilo", isPresented: $viewModel.showingAlert) {
+            Button("OK", role: .cancel) { }
+        }
+
     }
 }
 
